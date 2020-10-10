@@ -1,0 +1,22 @@
+import java.util.*;
+class Employee
+{
+int age;
+String name , city ;
+void display()
+{
+System.out.println("The Name is : "+name + " Age is : "+age+" City is : "+city);
+}
+}
+public class Employeetest
+{
+public static void main(String args[])
+{
+Employee e1 = new Employee();
+Employee e2 = new Employee();
+e1.name = "Swathi";
+e1.age = 20;
+e1.city = "Chennai";
+e1.display();
+}
+}
